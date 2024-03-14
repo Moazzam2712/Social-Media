@@ -1,0 +1,35 @@
+.input-grp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+
+form>:nth-child(1){
+    width: 40%;
+    padding: 0.5rem;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+form>:nth-child(2){
+    width: 40%;
+    padding: 0.5rem;
+    border: 2px solid gray;
+    border-radius: 8px;
+    transition: all 2s;
+}
+form>:nth-child(3){
+    background-color: rgba(48, 178, 19, 0.762);
+    color: white;
+}
+form>:nth-child(3):hover{
+    background-color: gray;
+    color: white;
+    scale: 1.1;
+}

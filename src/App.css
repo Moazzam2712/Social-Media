@@ -1,0 +1,46 @@
+*{
+    font-family: "Poppins"; 
+}
+
+.app-container{
+    display: flex;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar{
+min-height: 100vh;
+}
+
+.post-card{
+    margin: 20px 40px;
+}
+
+.hashtag{
+    margin: 0 4px;
+}
+.reactions{
+    width: 100%;
+margin-top: 15px;
+}
+
+.create-post{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.delete:hover{
+    cursor: pointer;
+}
+
+.home-posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
